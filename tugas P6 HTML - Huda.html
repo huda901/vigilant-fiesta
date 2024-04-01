@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Label</title>
+<style>
+      .styled-label {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: #000000; 
+        background-color: #ffffff; 
+        padding: 8px 12px; 
+        border-radius: 5px; 
+        border: 1px solid #ffffff; 
+        display: inline-block; 
+      }
+</style>
+</head>
+    <h2>Biodata</h2>
+<form>
+        <table>
+          <tr>
+            <td><label for="name">Nama</label></td>
+            <td>:</td>
+            <td><input type="text" id="name" name="name"></td>
+          </tr>
+    
+          <tr>
+            <td><label for="address">Alamat</label></td>
+            <td>:</td>
+            <td><input type="address" id="address" name="address"></td>
+          </tr>
+
+        <tr>
+          <td><label for="birthday">Birthday</label></td>
+          <td>:</td>
+          <td><input type="date" id="birthday" name="birthday"></td>
+        </tr>
+
+        <tr>
+         <td><label for="option">Jenis Kelamin</label></td>
+         <td>:</td>
+         <td><input type="radio" id="boy" name="gender" value="Laki-laki">
+          <label for="boy">Laki-laki</label>
+          <input type="radio" id="girl" name="gender" value="Perempuan">
+          <label for="girl">Perempuan</label></td>
+        </tr>
+
+        <tr>
+         <td><label for="option">Agama</label></td>
+         <td>:</td>
+         <td><select id="option" name="option">
+          <option value="option1">Islam</option>
+          <option value="option2">Kristen</option>
+          <option value="option3">Hindu</option>
+          <option value="option4">Budha</option>
+         </select></td><br><br>
+         </tr>
+         
+         <tr>
+          <td><label for="option">Hobby</label></td>
+          <td>:</td>
+          <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Olahraga">
+          <label for="vehicle1"> Olahraga </label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Belajar">
+          <label for="vehicle2"> Belajar</label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Berenang">
+          <label for="vehicle2"> Berenang</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Musik">
+          <label for="vehicle3"> Musik</label></td><br><br>
+         </tr>
+         
+         <tr>
+          <td><label for="option">Motto</label><br></td>
+          <td>:</td>
+          <td><textarea name="message" rows="10" cols="30">Isi motto anda disini.</textarea></td><br><br>
+         </tr>
+        <tr>
+          <td><input type="submit">
+        <input type="reset"></td>
+        </tr>
+</table>
+</form>
+</body>
+</html>
